@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Interface - Murphy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="system-panel">
+        <h1 class="title">Status Window</h1>
+        <div class="stats">
+            <p><strong>Name:</strong> Murphy</p>
+            <p><strong>Class:</strong> Athlete</p>
+            <p><strong>Level:</strong> <span id="level">0</span></p>
+            <p><strong>EXP:</strong> <span id="exp">0</span>/100</p>
+            <p><strong>Stat Points:</strong> <span id="statPoints">0</span></p>
+            <ul>
+                <li>Strength: <span id="str">0</span></li>
+                <li>Agility: <span id="agi">0</span></li>
+                <li>Stamina: <span id="sta">0</span></li>
+                <li>Intelligence: <span id="int">0</span></li>
+                <li>Sense: <span id="sen">0</span></li>
+                <li>Vitality: <span id="vit">0</span></li>
+                <li>Luck: <span id="luck">0</span></li>
+            </ul>
+        </div>
+        <button onclick="gainExp()">Gain EXP</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
